@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "11911410dca2de148f30954eb2fd5eab",
-    "url": "/react-todo/static/media/arrow_left.11911410.svg"
+    "revision": "8ef6a08cdc1154920165680a4edde771",
+    "url": "/react-todo/static/media/arrow_right.8ef6a08c.svg"
   },
   {
-    "revision": "1d0af16c76a31cb7b625",
+    "revision": "c5b17c754d10b816f20c",
     "url": "/react-todo/static/css/main.81bd708c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/react-todo/static/js/runtime~main.71350252.js"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/react-todo/static/media/Roboto-Medium.894a2ede.ttf"
+    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
+    "url": "/react-todo/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
     "revision": "cb3f068a9b255caa0d3a",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/react-todo/static/media/fa-regular-400.e7e957c8.svg"
   },
   {
-    "revision": "b5596f4d339f99e3d69bc41be78db962",
-    "url": "/react-todo/static/media/fa-solid-900.b5596f4d.eot"
-  },
-  {
     "revision": "b70cea0339374107969eb53e5b1f603f",
     "url": "/react-todo/static/media/fa-solid-900.b70cea03.ttf"
+  },
+  {
+    "revision": "b5596f4d339f99e3d69bc41be78db962",
+    "url": "/react-todo/static/media/fa-solid-900.b5596f4d.eot"
   },
   {
     "revision": "80533988ff5fecd5be26557d08ce8237",
@@ -80,12 +80,12 @@ self.__precacheManifest = [
     "url": "/react-todo/static/media/fa-solid-900.82905d8d.svg"
   },
   {
-    "revision": "8ef6a08cdc1154920165680a4edde771",
-    "url": "/react-todo/static/media/arrow_right.8ef6a08c.svg"
+    "revision": "11911410dca2de148f30954eb2fd5eab",
+    "url": "/react-todo/static/media/arrow_left.11911410.svg"
   },
   {
-    "revision": "1d0af16c76a31cb7b625",
-    "url": "/react-todo/static/js/main.1d0af16c.chunk.js"
+    "revision": "c5b17c754d10b816f20c",
+    "url": "/react-todo/static/js/main.c5b17c75.chunk.js"
   },
   {
     "revision": "dfe56a876d0282555d1e2458e278060f",
@@ -100,12 +100,12 @@ self.__precacheManifest = [
     "url": "/react-todo/static/media/Roboto-Regular.30799efa.eot"
   },
   {
-    "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
-    "url": "/react-todo/static/media/Roboto-Bold.ecdd509c.eot"
-  },
-  {
     "revision": "4d9f3f9e5195e7b074bb63ba4ce42208",
     "url": "/react-todo/static/media/Roboto-Medium.4d9f3f9e.eot"
+  },
+  {
+    "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
+    "url": "/react-todo/static/media/Roboto-Bold.ecdd509c.eot"
   },
   {
     "revision": "954bbdeb86483e4ffea00c4591530ece",
@@ -128,20 +128,20 @@ self.__precacheManifest = [
     "url": "/react-todo/static/media/Roboto-Bold.39b2c303.woff2"
   },
   {
-    "revision": "3b813c2ae0d04909a33a18d792912ee7",
-    "url": "/react-todo/static/media/Roboto-Light.3b813c2a.woff"
-  },
-  {
-    "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
-    "url": "/react-todo/static/media/Roboto-Regular.ba3dcd89.woff"
-  },
-  {
     "revision": "7500519de3d82e33d1587f8042e2afcb",
     "url": "/react-todo/static/media/Roboto-Thin.7500519d.woff"
   },
   {
+    "revision": "3b813c2ae0d04909a33a18d792912ee7",
+    "url": "/react-todo/static/media/Roboto-Light.3b813c2a.woff"
+  },
+  {
     "revision": "fc78759e93a6cac50458610e3d9d63a0",
     "url": "/react-todo/static/media/Roboto-Medium.fc78759e.woff"
+  },
+  {
+    "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
+    "url": "/react-todo/static/media/Roboto-Regular.ba3dcd89.woff"
   },
   {
     "revision": "dc81817def276b4f21395f7ea5e88dcd",
@@ -152,23 +152,23 @@ self.__precacheManifest = [
     "url": "/react-todo/static/media/Roboto-Thin.94998475.ttf"
   },
   {
-    "revision": "df7b648ce5356ea1ebce435b3459fd60",
-    "url": "/react-todo/static/media/Roboto-Regular.df7b648c.ttf"
-  },
-  {
     "revision": "46e48ce0628835f68a7369d0254e4283",
     "url": "/react-todo/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
-    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
-    "url": "/react-todo/static/media/Roboto-Bold.e31fcf18.ttf"
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/react-todo/static/media/Roboto-Medium.894a2ede.ttf"
+  },
+  {
+    "revision": "df7b648ce5356ea1ebce435b3459fd60",
+    "url": "/react-todo/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
     "revision": "cb3f068a9b255caa0d3a",
     "url": "/react-todo/static/css/2.a6ddc42c.chunk.css"
   },
   {
-    "revision": "31b43ea09c6a76596e8e4c2d6bb24a39",
+    "revision": "d472698d4ab8fd94af6acb96584300ea",
     "url": "/react-todo/index.html"
   }
 ];
