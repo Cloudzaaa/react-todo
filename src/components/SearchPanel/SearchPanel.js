@@ -20,7 +20,7 @@ export default class SearchPanel extends Component {
         return (
             <form className="search-panel">
                 <MDBInput
-                    placeholder={'search'}
+                    label={'Search to do...'}
                     onChange={this.onSearch}
                 />
             </form>

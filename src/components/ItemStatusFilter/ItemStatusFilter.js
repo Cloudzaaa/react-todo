@@ -12,7 +12,7 @@ export default class ItemStatusFilter extends Component {
         const {filter, onFilter} = this.props;
         const buttons = this.buttons.map(({name, label}) => {
             const isActive = filter === name;
-            const color = isActive ? 'info' : 'primary';
+            const color = isActive ? 'primary' : 'blue-grey';
             return (
                 <MDBBtn
                     color={color}
