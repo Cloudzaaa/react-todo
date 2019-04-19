@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/react-todo/static/js/runtime~main.71350252.js"
   },
   {
-    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
-    "url": "/react-todo/static/media/Roboto-Bold.e31fcf18.ttf"
+    "revision": "46e48ce0628835f68a7369d0254e4283",
+    "url": "/react-todo/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
     "revision": "cb3f068a9b255caa0d3a",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/react-todo/static/media/fa-regular-400.e7e957c8.svg"
   },
   {
-    "revision": "b70cea0339374107969eb53e5b1f603f",
-    "url": "/react-todo/static/media/fa-solid-900.b70cea03.ttf"
-  },
-  {
     "revision": "b5596f4d339f99e3d69bc41be78db962",
     "url": "/react-todo/static/media/fa-solid-900.b5596f4d.eot"
+  },
+  {
+    "revision": "b70cea0339374107969eb53e5b1f603f",
+    "url": "/react-todo/static/media/fa-solid-900.b70cea03.ttf"
   },
   {
     "revision": "80533988ff5fecd5be26557d08ce8237",
@@ -136,12 +136,12 @@ self.__precacheManifest = [
     "url": "/react-todo/static/media/Roboto-Light.3b813c2a.woff"
   },
   {
-    "revision": "fc78759e93a6cac50458610e3d9d63a0",
-    "url": "/react-todo/static/media/Roboto-Medium.fc78759e.woff"
-  },
-  {
     "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
     "url": "/react-todo/static/media/Roboto-Regular.ba3dcd89.woff"
+  },
+  {
+    "revision": "fc78759e93a6cac50458610e3d9d63a0",
+    "url": "/react-todo/static/media/Roboto-Medium.fc78759e.woff"
   },
   {
     "revision": "dc81817def276b4f21395f7ea5e88dcd",
@@ -152,8 +152,8 @@ self.__precacheManifest = [
     "url": "/react-todo/static/media/Roboto-Thin.94998475.ttf"
   },
   {
-    "revision": "46e48ce0628835f68a7369d0254e4283",
-    "url": "/react-todo/static/media/Roboto-Light.46e48ce0.ttf"
+    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
+    "url": "/react-todo/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
     "revision": "894a2ede85a483bf9bedefd4db45cdb9",
