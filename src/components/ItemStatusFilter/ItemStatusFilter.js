@@ -1,14 +1,31 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {MDBBtnGroup, MDBBtn} from "mdbreact";
 
-const ItemStatusFilter = () => {
-    return (
-        <MDBBtnGroup size="sm">
-            <MDBBtn color="info">All</MDBBtn>
-            <MDBBtn color="primary">Active</MDBBtn>
-            <MDBBtn color="primary">Done</MDBBtn>
-        </MDBBtnGroup>
-    );
-};
+export default class ItemStatusFilter extends Component {
+    buttons = [
+        { name: 'all', label: 'All'},
+        { name: 'active', label: 'Active'},
+        { name: 'done', label: 'Done'},
+    ];
 
-export default ItemStatusFilter;
+    render() {
+        const {filter, onFilter} = this.props;
+        const buttons = this.buttons.map(({name, label}) => {
+            const isActive = filter === name;
+            const color = isActive ? 'info' : 'primary';
+            return (
+                <MDBBtn
+                    color={color}
+                    key={name}
+                    onClick={() => onFilter(name)}
+                >{label}</MDBBtn>
+            )
+        });
+
+        return(
+            <MDBBtnGroup size="sm">
+                {buttons}
+            </MDBBtnGroup>
+        );
+    };
+};

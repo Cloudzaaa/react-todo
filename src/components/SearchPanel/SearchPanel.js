@@ -1,13 +1,29 @@
-import React from 'react';
-import { MDBInput } from 'mdbreact';
+import React, {Component} from 'react';
+import {MDBInput} from 'mdbreact';
 import './style.css';
 
-const SearchPanel = () => {
-    return (
-        <form className="search-panel">
-            <MDBInput placeholder={'search'} />
-        </form>
-    )
-};
+export default class SearchPanel extends Component {
+    state = {
+        searchText: '',
+    };
 
-export default SearchPanel;
+    onSearch = (e) => {
+        const searchtext = e.target.value;
+        this.setState({
+            searchText: searchtext,
+        });
+
+        this.props.onSearchChange(searchtext);
+    };
+
+    render() {
+        return (
+            <form className="search-panel">
+                <MDBInput
+                    placeholder={'search'}
+                    onChange={this.onSearch}
+                />
+            </form>
+        )
+    }
+};
