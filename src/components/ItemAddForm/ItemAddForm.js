@@ -21,7 +21,7 @@ export default class ItemAddForm extends Component {
         return (
             <form className="item-add-form" onSubmit={this.onSubmit}>
                 <MDBInput
-                    placeholder={'What to do?'}
+                    label={'What to do?'}
                     onChange={this.onLabelChange}
                     value={this.state.label}
                     required
